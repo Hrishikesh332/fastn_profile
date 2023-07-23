@@ -1,0 +1,66 @@
+-- ds.page: Page with right-sidebar 👉
+sidebar: true
+
+-- ds.page.right-sidebar:
+
+-- ds.h3: Heading in sidebar
+
+You can call any component inside sidebar. 
+
+This right-sidebar will appear on all pages.
+
+-- ds.code:
+lang: ftd
+
+\-- ftd.text: Hello World
+
+-- end: ds.page.right-sidebar
+
+-- ds.page.body:
+
+If you want to show right-sidebar on your page you can add it like sidebar shown
+in this page 👉.
+
+-- ds.h3: `right-sidebar` documentation
+
+[Click here](https://fastn-community.github.io/doc-site/right-sidebar/) to read
+more about `right-sidebar`.
+
+-- ds.h3: How this page is built?
+
+Copy below code snippet to create pages like this with right-sidebar.
+
+-- ds.code:
+lang: ftd
+
+\-- ds.page: Page with right-sidebar 👉
+sidebar: true
+
+\-- ds.page.right-sidebar:
+
+\-- ds.h3: Heading in sidebar
+
+You can call any component inside sidebar. 
+
+This right-sidebar will appear on all pages.
+
+\-- ds.code:
+lang: ftd
+
+\-- ftd.text: Hello World
+
+\-- end: ds.page.right-sidebar
+
+\-- ds.page.body:
+
+If you want to show right-sidebar on your page you can add it like sidebar shown
+in this page 👉.
+
+\-- ds.h3: Read right-sidebar documentation
+
+[Click here](https://fastn-community.github.io/doc-site/right-sidebar/) to read
+more about `right-sidebar`.
+
+\-- end: ds.page
+
+-- end: ds.page
