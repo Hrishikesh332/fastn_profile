@@ -35,7 +35,7 @@ string site-url: $common.site-url
 -- ftd.ui list page.footer:
 
 -- footer.fastn-footer:
-copyright: Copyright © 2023 - <user_name>.github.io/<repo_name>
+copyright: Copyright © 2023 - hrishikesh332.github.io/fastn_profile
 site-logo: $common.fastn-logo
 powered-by-text: Powered by
 powered-by-link: https://fastn.com/
