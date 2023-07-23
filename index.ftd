@@ -1,40 +1,67 @@
--- ds.page: Welcome to doc-site
+-- ds.page: Hello, Myself Hrishikesh Yadav
 
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
+-- ds.h3: About ⚡️ 
 
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
+Heya, Hrishikesh Yadav here. I am more inclined towards the technology built on AI/ML. I like to participate into competition and hackathons. 
 
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
+;; -- ftd.image:
+;; src: $assets.profile.gif
 
--- ds.h3: 🚀 Fast Track 
-
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
-
--- ds.h3: 🌟 Whats next?
-
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/components/page/).
-
--- ds.h3: 👀 Want to learn more?
-
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- ds.image: Github
+link: https://github.com/Hrishikesh332
+src: $assets.files.static.profile.gif
+width.fixed.px: 400
 
 
--- ds.h3: 🎯 Used by?
+-- ds.h3: Technology I have Built in 🚀  
 
-Our all documentation sites uses this `doc-site` theme.
+Backend Development - Django, Flask, Go 
 
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
+Machine Learning
 
--- ds.h2: Learn fastn and become a pro?
+Deep Learning
 
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+Data Science
+
+Generative AI
+
+Cloud
+
+-- ds.h3: Buidling 👨‍💻
+
+Here, Are my work i'm currently working on. Feel free to check the work and suggestions✨
+
+👮 [LLM Dynamic Analytics for Policing](https://crimedynamic.streamlit.app/)
+
+👨‍🔬 [Chem Master](https://hrishikesh332-chem-master-app-26iy0f.streamlit.app/)
+
+🛣️ [NavRoute](https://navroute-h0zdz46mq5.streamlit.app/)
+
+-- ds.h3: Looking to collaborate on Research Work 👀 
+
+
+🎭 Working on the Deep Fake Detection
+
+🔊 Spoofing Detection on Real Time Call
+
+
+-- ds.image: Github
+link: https://github.com/Hrishikesh332
+src: $assets.files.static.explaining-sheldon.gif
+width.fixed.px: 400
+
+Feel free to contact [hrishikesh3321@gmail.com](mailto:hrishikesh3321@gmail.com) 
+
+
+-- ds.h3: Let's Connect 🔗
+
+Github : [https://github.com/Hrishikesh332](https://github.com/Hrishikesh332)
+
+Linkedin : [https://www.linkedin.com/in/hrishikesh-yadav-aa748121a/](https://www.linkedin.com/in/hrishikesh-yadav-aa748121a/) 
+
+Talks : [https://hrishikesh332.github.io/Talks/](https://hrishikesh332.github.io/Talks/) 
+
+Twitter : [https://twitter.com/Hrishik55709731](https://twitter.com/Hrishik55709731) 
 
 -- end: ds.page
