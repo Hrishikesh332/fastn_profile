@@ -1,0 +1,30 @@
+name: Deploy Site
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+  workflow_call:    
+
+jobs:
+  build:
+    permissions: write-all
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: FranzDiebold/github-env-vars-action@v2
+      - run: sh -c "$(curl -fsSL https://fastn.io/install.sh)"
+      - name: Build the pages with fastn
+        run: |
+          echo "Using '$CI_REPOSITORY_NAME_SLUG/' as the base while building"
+          # To deploy the website using GitHub Pages, use the below command
+          fastn build --base=/$CI_REPOSITORY_NAME/
+          # To deploy the website using Custom Domain, use the below command and comment
+          #out the above command when deploying through GitHub Pages 
+          #fastn build --base=/
+      - name: copy CNAME if found
+        run: '(test -f CNAME && cp CNAME .build) || echo "CNAME does not exist, skipping step"'
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./.build

@@ -1,0 +1,18 @@
+name: Update Content On Heroku
+
+on:
+  workflow_dispatch:
+  workflow_call:
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Redeploy Heroku
+        id: redeploy_heroku
+        run: |
+          curl --location --request POST \
+          --url 'https://<heroku-app-name>.herokuapp.com/-/clear-cache/?package=main&all-dependencies=true'
